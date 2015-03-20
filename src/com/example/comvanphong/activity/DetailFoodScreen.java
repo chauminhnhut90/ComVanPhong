@@ -2,7 +2,7 @@ package com.example.comvanphong.activity;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
+import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 
 import com.example.comvanphong.R;
@@ -10,7 +10,7 @@ import com.example.comvanphong.fragment.DetailFoodFragment;
 import com.example.comvanphong.model.FoodObject;
 import com.example.comvanphong.uitls.CommonUtils;
 
-public class DetailFoodScreen extends FragmentActivity {
+public class DetailFoodScreen extends ActionBarActivity {
 
 	public static final String FOOD_OBJECT_DATA = "FOOD_OBJECT_DATA";
 	private static final String TAG = DetailFoodScreen.class.getName();
@@ -19,6 +19,8 @@ public class DetailFoodScreen extends FragmentActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.layout_activity_detail_food);
+
+		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 		FoodObject f = getIntent().getExtras().getParcelable(FOOD_OBJECT_DATA);
 		if (null != f) {
