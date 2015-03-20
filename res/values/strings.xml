@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ComVanPhong</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_change">Change</string>
+    <string name="action_gird">Gridview</string>
+    <string name="action_list">ListView</string>
+
+    <!-- DATA FOOD -->
+    <string name="food_1">Cá điều hồng chiên nước mắm</string>
+    <string name="food_2">Cá hú kho hành ớt</string>
+    <string name="food_3">Cá kèo kho tiêu</string>
+    <string name="food_4">Cá lóc kho tiêu</string>
+    <string name="food_5">Cá rô kho tiêu</string>
+    <string name="food_6">Đậu hủ dồn thịt</string>
+    <string name="food_7">Đùi ga chiên nước mắm</string>
+    <string name="food_8">Gà xào sả ớt</string>
+    <string name="food_9">Thịt chiên ngũ vị</string>
+    <string name="food_10">Thịt kho củ cải</string>
+    <string name="food_11">Thịt kho đậu hủ</string>
+    <string name="food_12">Thịt kho tiêu</string>
+    <string name="food_13">Thịt kho trứng</string>
+    <string name="food_14">Vịt kho gừng</string>
+
+</resources>

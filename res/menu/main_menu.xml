@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.comvanphong.MainActivity" >
+
+    <!-- Location Found -->
+    <item
+        android:id="@+id/action_change"
+        android:icon="@drawable/ic_action_view_as_list"
+        android:showAsAction="always"
+        android:title="@string/action_change"/>
+
+</menu>
