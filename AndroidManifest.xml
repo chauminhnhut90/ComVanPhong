@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="11"
+        android:minSdkVersion="8"
         android:targetSdkVersion="21" />
 
     <application
@@ -23,9 +23,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- MainScreen -->
         <activity android:name="com.example.comvanphong.activity.MainScreen" >
         </activity>
+
+        <!-- DetailFoodScreen -->
         <activity android:name="com.example.comvanphong.activity.DetailFoodScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.comvanphong.activity.MainScreen" />
         </activity>
     </application>
 
