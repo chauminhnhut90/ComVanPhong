@@ -5,7 +5,7 @@ import android.support.v4.app.Fragment;
 import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 
-import com.example.comvanphong.R;
+import com.nhutcm.officemeal.R;
 import com.example.comvanphong.fragment.DetailFoodFragment;
 import com.example.comvanphong.model.FoodObject;
 import com.example.comvanphong.uitls.CommonUtils;

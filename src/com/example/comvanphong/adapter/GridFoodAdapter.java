@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.example.comvanphong.R;
+import com.nhutcm.officemeal.R;
 import com.example.comvanphong.model.FoodObject;
 
 public class GridFoodAdapter extends BaseAdapter {
@@ -41,8 +41,7 @@ public class GridFoodAdapter extends BaseAdapter {
 	public View getView(int position, View convertView, ViewGroup parent) {
 		ViewHolderItem viewHolder;
 		if (convertView == null) {
-			convertView = inflater.inflate(
-					com.example.comvanphong.R.layout.layout_item_grid_food,
+			convertView = inflater.inflate(R.layout.layout_item_grid_food,
 					parent, false);
 			viewHolder = new ViewHolderItem();
 

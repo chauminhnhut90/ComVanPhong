@@ -8,7 +8,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import com.example.comvanphong.R;
+import com.nhutcm.officemeal.R;
 import com.example.comvanphong.fragment.GridFoodFragment;
 import com.example.comvanphong.fragment.ListFoodFragment;
 import com.example.comvanphong.model.FoodObject;

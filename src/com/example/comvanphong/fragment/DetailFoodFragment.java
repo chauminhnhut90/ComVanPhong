@@ -2,7 +2,7 @@ package com.example.comvanphong.fragment;
 
 import java.util.Locale;
 
-import com.example.comvanphong.R;
+import com.nhutcm.officemeal.R;
 import com.example.comvanphong.activity.DetailFoodScreen;
 import com.example.comvanphong.model.FoodObject;
 

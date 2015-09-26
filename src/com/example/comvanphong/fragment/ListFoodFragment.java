@@ -14,7 +14,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
 
-import com.example.comvanphong.R;
+import com.nhutcm.officemeal.R;
 import com.example.comvanphong.activity.DetailFoodScreen;
 import com.example.comvanphong.adapter.ListFoodAdapter;
 import com.example.comvanphong.model.FoodObject;
