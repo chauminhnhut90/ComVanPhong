@@ -35,7 +35,7 @@ public class MainScreen extends FragmentActivity {
 
 	private void loadData() {
 
-		ArrayList<String> data = new ArrayList<>();
+		ArrayList<String> data = new ArrayList<String>();
 		data.add(getString(R.string.food_1));
 		data.add(getString(R.string.food_2));
 		data.add(getString(R.string.food_3));
@@ -51,7 +51,7 @@ public class MainScreen extends FragmentActivity {
 		data.add(getString(R.string.food_13));
 		data.add(getString(R.string.food_14));
 
-		listFood = new ArrayList<>();
+		listFood = new ArrayList<FoodObject>();
 		for (int i = 0; i < data.size(); i++) {
 			FoodObject f = new FoodObject();
 			f.id = String.valueOf(i);
